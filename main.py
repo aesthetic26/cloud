@@ -425,7 +425,6 @@ async def youtube_to_txt(client, message: Message):
             'quiet': True,
             'extract_flat': True,
             'skip_download': True,
-            'force_generic_extractor': True,
             'forcejson': True,
             'ignoreerrors': True,
             'cookies': 'youtube_cookies.txt'  # Specify the cookies file
